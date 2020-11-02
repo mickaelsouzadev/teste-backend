@@ -8,7 +8,7 @@ use App\Company;
 class CompanyController extends Controller
 {
 	
-    public function listCompanies(Request $request)
+    public function listCompanies()
     {
     	return Company::get();
     }
